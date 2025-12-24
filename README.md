@@ -1,5 +1,5 @@
 # singular-value-decomposition-csharp
-Function to compute singular value decomposition (SVD) of a matrix, implemented using C#
+Function to compute singular value decomposition (SVD) of a matrix, implemented using C#. Note: Computing SVD is one of the most difficult problems in numerical programming. The standard LAPACK implementation is over 10,000 lines of Fortran code. This implementation is intended mostly for machine learning scenarios where precision to 1.0e-8 is good enough. This implementation has all normal error-checking removed for clarity.
 
 <img src="svd_csharp_demo_run.jpg" height="500" />
 
