@@ -1,6 +1,8 @@
 # singular-value-decomposition-csharp
 Function to compute singular value decomposition (SVD) of a matrix, implemented using C#
 
+<img src="svd_csharp_demo_run.jpg" height="500" />
+
 Function MatDecomp() is contained in a class SVD. Results are returned as out parameters. Example call:
 ```
 double[][] A = new double[6][];
